@@ -37,7 +37,7 @@
     }
 
     function allGood() {
-        if(!empty($_POST['name']) AND !empty($_POST['firstName']) AND !empty($_POST['gender']) AND !empty($_POST['country']) AND !empty($_POST['email']) AND !empty($_POST['textArea'])) {
+        if(!empty($_POST['name']) AND !empty($_POST['firstName']) AND !empty($_POST['gender']) AND !empty($_POST['country']) AND !empty($_POST['email']) AND !empty($_POST['textArea'] AND isset($_POST['submit']))) {
             $to      = $_POST['email'];
             $subject = "We received your message";
             $message = 'hello';

@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #303030;
+  font-size: 16px;
+}
+
+.yes {
+  width: 350px;
+}
+
+h1 {
+  color: #15c5bd;
+}
+
+.form-control {
+  background-color: #f5f9fb;
+  font-weight: 100;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: 0 0 0 1px #15c5bd !important;
+          box-shadow: 0 0 0 1px #15c5bd !important;
+}
+
+textarea {
+  resize: none;
+}
+
+input[type=submit] {
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 8px 16px 8px 16px;
+  background-color: #15c5bd;
+}
+
+input[type=submit]:hover {
+  color: white;
+}
+
+input[type=submit]:active {
+  background-color: #06918a;
+}
+
+@media only screen and (max-width: 767px) {
+  .yes {
+    width: 200px;
+  }
+}
+
+p {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
