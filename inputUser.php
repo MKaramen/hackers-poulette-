@@ -38,8 +38,14 @@
 
     function allGood() {
         if(!empty($_POST['name']) AND !empty($_POST['firstName']) AND !empty($_POST['gender']) AND !empty($_POST['country']) AND !empty($_POST['email']) AND !empty($_POST['textArea'])) {
-            $msg = "We received your message : \n".$_POST["textArea"]."\n We'll try to answer as soon as possible \n Kind Regards. \n Hackers-Poulette";
-            mail($_POST['email'], "We received your message", $msg );
+            $to      = $_POST['email'];
+            $subject = "We received your message";
+            $message = 'hello';
+            $headers = 'From: webmaster@example.com' . "\r\n" .
+            'Reply-To: webmaster@example.com' . "\r\n" .
+            'X-Mailer: PHP/' . phpversion();
+
+            mail($to, $subject, $message);
         }
     }
     
