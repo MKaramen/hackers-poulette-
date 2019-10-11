@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Hackers-Poulette | Contact us </title>
+    <link rel='icon' href="assets/img/favicon.ico" >
     
 </head>
 
