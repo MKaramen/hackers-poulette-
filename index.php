@@ -389,6 +389,7 @@
 
                     <div class="col-md-12">
                         <article class="form-group col-md-12 mb-0">
+                            <label for="textArea"></label>
                             <textarea class="form-control mt-2" id="textArea" name="textArea" rows="5" placeholder="Write your message here ..." value="<?=$_POST['textArea'] ?? ''?>"><?=htmlentities($_POST['textArea'])?></textarea>
                         </article>
                     </div>
