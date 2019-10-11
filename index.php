@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Hackers-Poulette | Contact us </title>
-    <link rel='icon' href="assets/img/favicon.ico" >
+    <link rel='icon' href="assets/img/favicon.ico">
     
 </head>
 
@@ -389,7 +389,7 @@
 
                     <div class="col-md-12">
                         <article class="form-group col-md-12 mb-0">
-                            <textarea class="form-control" id="textArea" name="textArea" rows="5" placeholder="Write your message here ..." value="<?=$_POST['textArea'] ?? ''?>"><?=htmlentities($_POST['textArea'])?></textarea>
+                            <textarea class="form-control mt-2" id="textArea" name="textArea" rows="5" placeholder="Write your message here ..." value="<?=$_POST['textArea'] ?? ''?>"><?=htmlentities($_POST['textArea'])?></textarea>
                         </article>
                     </div>
                     <!-- ERROR MESSAGE-->
