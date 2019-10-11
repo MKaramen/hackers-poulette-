@@ -5,11 +5,11 @@ Here is the result : https://hackers-poulette420.herokuapp.com/
 
 <h2>Mockup</h2>
 
-<img src="assets/img/screenShot/mockup.png">
+<img src="assets/img/screenShot/mockup.png" />
 
 <h2>Preview</h2>
 
-<img src="assets/img/screenShot/screenWeb.png">
+<img src="assets/img/screenShot/screenWeb.png"/>
 
 <h2>Responsive</h2>
 The website is responsive for mobile, tablet and desktop.
