@@ -1,5 +1,4 @@
 <?php
-    $notGood = [];
 
 
     function emptyString($topic) {
@@ -40,12 +39,9 @@
         if(!empty($_POST['name']) AND !empty($_POST['firstName']) AND !empty($_POST['gender']) AND !empty($_POST['country']) AND !empty($_POST['email']) AND !empty($_POST['textArea'] AND isset($_POST['submit']))) {
             $to      = $_POST['email'];
             $subject = "We received your message";
-            $message = 'hello';
-            $headers = 'From: webmaster@example.com' . "\r\n" .
-            'Reply-To: webmaster@example.com' . "\r\n" .
-            'X-Mailer: PHP/' . phpversion();
+            $message = 'We received your message \n'.$_POST['textArea']."We'll try to respond as soon as possible.";
 
-            mail($to, $subject, $message, $headers);
+            mail($to, $subject, $message);
         }
     }
     
